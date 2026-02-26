@@ -69,6 +69,7 @@ rich==13.8.1
 safetensors==0.4.5
 sentencepiece==0.2.0
 six==1.16.0
+setuptools<82
 soupsieve==2.6
 sympy==1.13.1
 tensorboard==2.16.2
