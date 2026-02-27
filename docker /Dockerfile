@@ -16,6 +16,6 @@ RUN pip install flash_attn==2.7.4.post1 --no-build-isolation
 RUN pip install -r requirements.txt
 
 # Copy the rest of the project
-COPY . .
+# COPY . .
 
 CMD ["bash"]

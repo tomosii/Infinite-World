@@ -33,8 +33,8 @@ echo "Outputs : ${SCRIPT_DIR}/outputs"
 echo "=============================================="
 
 
-docker run --rm -it \
-    $GPU_FLAGS \
+sudo docker run --rm -it \
+    --gpus all \
     --shm-size=16g \
     -v "$SCRIPT_DIR:/workspace/Infinite-World" \
     -e WANDB_API_KEY=$WANDB_API_KEY \

@@ -14,7 +14,7 @@ echo "Image : ${IMAGE_NAME}:${IMAGE_TAG}"
 echo "Context: ${SCRIPT_DIR}"
 echo "=============================================="
 
-docker build -t "${IMAGE_NAME}:${IMAGE_TAG}" "$SCRIPT_DIR"
+sudo docker build -t "${IMAGE_NAME}:${IMAGE_TAG}" "$SCRIPT_DIR"
 
 echo ""
 echo "Build complete: ${IMAGE_NAME}:${IMAGE_TAG}"
